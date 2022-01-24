@@ -1,0 +1,140 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    align-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#profilePicture {
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+.myAbout {
+    margin-left: 25%;
+    border-left: 3px solid black;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: black;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 25%;
+    border-left: 3px solid black;
+}
+
+.grid-item1 {
+    border: 5px solid black;
+    padding: 200px 20px 100px 0;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-item1:hover {
+    border: 5px solid rgb(30, 255, 236);
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 25%;
+    border-left: 3px solid black;
+}
+
+.grid-item {
+    border: 5px solid black;
+    padding: 30px 20px 10px 0;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-item:hover {
+    border: 5px solid rgb(30, 255, 236);
+    cursor: pointer;
+}
+
+.linkText {
+    background-color: black;
+    float: left;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.linkText:hover {
+    background-color: rgb(30, 255, 236);
+    color: rgb(0, 0, 0);
+}
+
+#project1 {
+    background-image: url("./Images/FamilyCamping-2021-GettyImages-948512452-2.jpg");
+}
+
+#project2 {
+    background-image: url("./Images/shutterstock_1458128810.jpg");
+}
+
+#project3 {
+    background-image: url("./Images/space-2.jpg");
+}
+
+#project4 {
+    background-image: url("./Images/thefrozenforestsofsweden_redone_30x20.jpg");
+}
+
+#project5 {
+    background-image: url("./Images/852c2fa5e5468761c3ae8b796ca9be85_XL.jpg");
+}
+
+.column {
+    margin: 10px;
+    padding: 10px;
+}
+
+.contactText {
+    font-size: 16px;
+    margin-left: 25%;
+    border-left: 3px solid black;
+    padding-left: 10px;
+}
