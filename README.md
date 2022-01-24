@@ -6,4 +6,4 @@ Has my projects and contact info and about me so that when someone clicks on my 
 I learned how to create my portfolio using CSS and HTML
 
 <img src="Images/Profile.jpg" alt="Brief snip of the full webpage">
-https://otterpop7.github.io/Advanced-CSS-Challenge-Professional-Portfolio/
+https://otterpop7.github.io/Profile-Page/
